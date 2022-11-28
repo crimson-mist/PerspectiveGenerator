@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Image Perspective Generator</title>
+		<link rel="stylesheet" type="text/css" href="PerspectiveGenerator.css">
+	</head>
+	<body>
+		<canvas id="Canvas" width="1200" height="800"></canvas>
+
+		<div class="slidecontainer">
+			<div class = "slider1">
+		  		<input type="range" min="1" max="600" value="50" class="slider" id="van1in">
+		  		<p> Van1 Value: <span id="van1out"></span></p>
+		  	</div>
+		  	<div class="slider2">
+			  <input type="range" min="600" max="1200" value="1150" class="slider" id="van2in">
+			  <p> Van2 Value: <span id="van2out"></span></p>
+			</div>
+			<div class = "slider3">
+		  		<input type="range" min="1" max="400" value="200" class="slider" id="whpin">
+		  		<p> Whp Value: <span id="whpout"></span></p>
+		  	</div>
+		  	<div class = "slider4">
+		  		<input type="range" min="1" max="400" value="200" class="slider" id="whnin">
+		  		<p> Whn Value: <span id="whnout"></span></p>
+		  	</div>
+		  	<div class="slider5">
+			  <input type="range" min="1" max="1200" value="600" class="slider" id="wallxin">
+			  <p> WallX Value: <span id="wallxout"></span></p>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="PerspectiveGenerator.js"></script>
+	</body>
+</html>
